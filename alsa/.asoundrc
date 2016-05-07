@@ -1,0 +1,1 @@
+pcm.!default "hdmi:CARD=NVidia,DEV=1"

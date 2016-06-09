@@ -11,6 +11,10 @@ set showcmd       " display incomplete commands
 set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
+set background=dark
+set clipboard=unnamed
+set ignorecase
+set smartcase
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
@@ -145,7 +149,21 @@ set complete+=kspell
 " Always use vertical diffs
 set diffopt+=vertical
 
-" Local config
-if filereadable($HOME . "/.vimrc.local")
-  source ~/.vimrc.local
-endif
+colorscheme base16-default
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
+
+augroup localEx
+  autocmd!
+
+  autocmd VimResized * :wincmd =
+  " autocmd BufRead,BufWritePost *.rb Neomake
+augroup END
+
+nnoremap <leader>- :wincmd _<cr>:wincmd \|<cr>
+nnoremap <leader>= :wincmd =<cr>
+
+let test#strategy = "vtr"
+let g:better_whitespace_enabled = 0
+let g:strip_whitespace_on_save = 1
+let g:syntastic_ruby_checkers = ['rubocop']

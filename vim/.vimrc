@@ -10,9 +10,10 @@ Plug 'chriskempson/base16-vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'dsawardekar/ember.vim'
-Plug 'easymotion/vim-easymotion'
 Plug 'ervandew/supertab'
 Plug 'janko-m/vim-test'
+Plug 'justinmk/vim-sneak'
+Plug 'kana/vim-textobj-user' | Plug 'lucapette/vim-textobj-underscore'
 Plug 'kana/vim-textobj-user' | Plug 'nelstrom/vim-textobj-rubyblock'
 Plug 'majutsushi/tagbar'
 Plug 'ntpeters/vim-better-whitespace'
@@ -20,7 +21,7 @@ Plug 'pbrisbin/vim-mkdir'
 Plug 'rking/ag.vim'
 Plug 'scrooloose/syntastic'
 Plug 'sheerun/vim-polyglot'
-Plug 'terryma/vim-multiple-cursors'
+Plug 'sickill/vim-pasta'
 Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-dispatch'
@@ -39,7 +40,7 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-vinegar'
 call plug#end()
 
-let mapleader = " "
+let mapleader = ' '
 
 let test#strategy = 'dispatch'
 let is_posix = 1
@@ -53,6 +54,8 @@ let syntastic_check_on_wq = 0
 let ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 let ctrlp_use_caching = 0
 
+let tmux_navigator_save_on_switch = 1
+
 set hidden
 set ignorecase
 set linebreak
@@ -61,6 +64,9 @@ set spell
 set visualbell
 set wildmode=list:longest,full
 set wildignorecase
+set clipboard=unnamed
+set number
+set statusline=[%n]\ %<%.99f\ %w%m%r%y%=\ %l\ \/\ %L
 
 if has('persistent_undo')
   set undodir=~/.vim/undo/
@@ -75,11 +81,11 @@ silent! colorscheme base16-default
 
 nnoremap <leader><leader> <c-^>
 
-nnoremap <silent> <leader>t :TestFile<CR>
-nnoremap <silent> <leader>s :TestNearest<CR>
-nnoremap <silent> <leader>l :TestLast<CR>
+nnoremap <silent> <leader>t :TestNearest<CR>
+nnoremap <silent> <leader>T :TestFile<CR>
 nnoremap <silent> <leader>a :TestSuite<CR>
-nnoremap <silent> <leader>gt :TestVisit<CR>
+nnoremap <silent> <leader>l :TestLast<CR>
+nnoremap <silent> <leader>g :TestVisit<CR>
 
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k

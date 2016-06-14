@@ -1,0 +1,8 @@
+vo=opengl-hq:interpolation:deband=no:icc-profile=/home/maletor/.color/icc/2015-12-31.icc
+video-sync=display-resample
+audio-device=alsa/hdmi:CARD=NVidia,DEV=1
+audio-channels=auto
+
+fullscreen
+cache-default=8000000
+cache-backbuffer=2000000

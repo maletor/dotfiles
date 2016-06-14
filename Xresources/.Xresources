@@ -45,3 +45,9 @@ URxvt.scrollBar: false
 *.color13:      base06
 *.color14:      base0F
 *.color15:      base07
+
+rofi.color-window: base00, base07
+rofi.color-normal: base00, base07, base00, base07, base00
+rofi.color-urgent: base00, base08, base00, base08, base00
+rofi.color-active: base00, base0D, base00, base0D, base00
+rofi.font: Inconsolata 48

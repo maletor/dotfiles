@@ -66,7 +66,7 @@ set wildmode=list:longest,full
 set wildignorecase
 set clipboard=unnamed
 set number
-set statusline=[%n]\ %<%.99f\ %w%m%r%y%=\ %l\ \/\ %L
+set statusline=[%n]\ %<%.99f\ %w%m%r%y%=\ %l\ \/\ %L\ :\ %c
 
 if has('persistent_undo')
   set undodir=~/.vim/undo/

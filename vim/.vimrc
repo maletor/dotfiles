@@ -9,13 +9,14 @@ Plug 'bogado/file-line'
 Plug 'chriskempson/base16-vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'derekprior/vim-trimmer'
 Plug 'dsawardekar/ember.vim'
 Plug 'ervandew/supertab'
+Plug 'itchyny/lightline.vim'
 Plug 'janko-m/vim-test'
 Plug 'justinmk/vim-sneak'
 Plug 'kana/vim-textobj-user' | Plug 'lucapette/vim-textobj-underscore'
 Plug 'kana/vim-textobj-user' | Plug 'nelstrom/vim-textobj-rubyblock'
-Plug 'ntpeters/vim-better-whitespace'
 Plug 'pbrisbin/vim-mkdir'
 Plug 'rking/ag.vim'
 Plug 'scrooloose/syntastic'
@@ -66,7 +67,7 @@ set wildmode=list:longest,full
 set wildignorecase
 set clipboard=unnamed
 set number
-set statusline=[%n]\ %<%.99f\ %w%m%r%y%=\ %l\ \/\ %L\ :\ %c
+set noshowmode
 
 if has('persistent_undo')
   set undodir=~/.vim/undo/

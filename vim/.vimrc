@@ -68,15 +68,11 @@ set wildignorecase
 set clipboard=unnamed
 set number
 set noshowmode
-
-if has('persistent_undo')
-  set undodir=~/.vim/undo/
-  set undofile
-endif
-
-if has('mouse')
-  set mouse=a
-endif
+set list
+set hlsearch
+set undodir=~/.vim/undo/
+set undofile
+set mouse=a
 
 silent! colorscheme base16-default
 
@@ -92,3 +88,5 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
+
+nnoremap Y y$

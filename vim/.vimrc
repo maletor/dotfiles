@@ -66,10 +66,9 @@ set visualbell
 set wildmode=list:longest,full
 set wildignorecase
 set clipboard=unnamed
-set number
 set noshowmode
-set list
 set hlsearch
+set list
 set undodir=~/.vim/undo/
 set undofile
 set mouse=a

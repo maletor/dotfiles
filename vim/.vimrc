@@ -5,7 +5,6 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin()
-Plug 'bogado/file-line'
 Plug 'chriskempson/base16-vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'ctrlpvim/ctrlp.vim'
@@ -73,7 +72,7 @@ set undodir=~/.vim/undo/
 set undofile
 set mouse=a
 
-silent! colorscheme base16-default
+silent! colorscheme base16-default-dark
 
 nnoremap <leader><leader> <c-^>
 

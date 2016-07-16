@@ -1,11 +1,14 @@
 Xcursor.theme: whiteglass
 Xcursor.size: 48
-URxvt.font:     xft:inconsolata:size=64:antialias=true:hinting=true
-URxvt.boldFont: xft:inconsolata:bold:size=64:antialias=true:hinting=true
+URxvt.font: xft:inconsolata:size=64
+URxvt.boldFont: xft:inconsolata:bold:size=64
 URxvt.scrollBar: false
-
-! Base16 Default
-! Scheme: Chris Kempson (http://chriskempson.com)
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
 
 #define base00 #181818
 #define base01 #282828

@@ -1,4 +1,4 @@
-vo=opengl-hq:interpolation:deband=no:icc-profile=/home/maletor/.color/icc/2015-12-31.icc
+vo=opengl-hq:interpolation:icc-profile=/home/maletor/.color/icc/2016-07-16.icc
 video-sync=display-resample
 audio-device=alsa/hdmi:CARD=NVidia,DEV=1
 audio-channels=auto

@@ -7,7 +7,7 @@
 # If the above line is not correctly displayed, fix your editor first!
 
 general {
-	colors = true
+        colors = true
         color_good = "#a1b56c"
         color_bad = "#ab4642"
         interval = 5
@@ -16,41 +16,21 @@ general {
 order += "ipv6"
 order += "disk /home/maletor"
 order += "load"
-order += "tztime local"
-
-wireless wlp3s0 {
-        # format_up = "W: (%quality at %essid) %ip"
-        # format_up = "wifi: %ip (%speed)"
-	format_up = "%bitrate / %frequency %speed"
-        # format_down = "wifi: down"
-}
-
-ethernet eno1 {
-        # if you use %speed, i3status requires root privileges
-        format_up = "E: %ip"
-        format_down = "E: down"
-}
-
-battery 0 {
-        format = "%status %percentage %remaining"
-}
-
-run_watch DHCP {
-	pidfile = "/var/run/dhcpcd-*.pid"
-}
-
-run_watch VPN {
-        pidfile = "/var/run/vpnc/pid"
-}
-
-tztime local {
-        format = "%Y-%m-%d %H:%M"
-}
-
-load {
-        format = "%1min"
-}
+order += "tztime date"
+order += "tztime time"
 
 disk "/home/maletor" {
         format = "%avail"
+}
+
+load {
+        format = "%1min %5min %15min"
+}
+
+tztime date {
+        format = "%Y-%m-%d"
+}
+
+tztime time {
+        format = "%H:%M"
 }

@@ -1,7 +1,7 @@
 Xcursor.theme: whiteglass
-Xcursor.size: 48
-URxvt.font: xft:inconsolata:size=64
-URxvt.boldFont: xft:inconsolata:bold:size=64
+Xcursor.size: 64
+URxvt.font: xft:Source Code Pro:size=64
+URxvt.boldFont: xft:Source Code Pro:bold:size=64
 URxvt.scrollBar: false
 Xft.autohint: 0
 Xft.lcdfilter: lcddefault

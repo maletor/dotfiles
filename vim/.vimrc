@@ -8,8 +8,8 @@ call plug#begin()
 Plug 'chriskempson/base16-vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'derekprior/vim-trimmer'
 Plug 'dsawardekar/ember.vim'
+Plug 'editorconfig/editorconfig-vim'
 Plug 'ervandew/supertab'
 Plug 'itchyny/lightline.vim'
 Plug 'janko-m/vim-test'
@@ -33,7 +33,6 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-rsi'
 Plug 'tpope/vim-sensible'
-Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-tbone'
 Plug 'tpope/vim-unimpaired'
@@ -56,6 +55,8 @@ let ctrlp_use_caching = 0
 
 let tmux_navigator_save_on_switch = 1
 
+let EditorConfig_exclude_patterns = ['fugitive://.*']
+
 set hidden
 set ignorecase
 set linebreak
@@ -71,6 +72,7 @@ set list
 set undodir=~/.vim/undo/
 set undofile
 set mouse=a
+set ttymouse=xterm2
 
 silent! colorscheme base16-default-dark
 

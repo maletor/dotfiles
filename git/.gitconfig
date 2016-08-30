@@ -26,7 +26,7 @@
   email = bernee@alum.rpi.edu
   signingkey = Ellis Berner <bernee@alum.rpi.edu>
 [commit]
-  gpgsign = true
+  gpgsign = false
 [apply]
   whitespace = nowarn
 [help]

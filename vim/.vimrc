@@ -22,6 +22,7 @@ set nomore
 set nospell
 set notimeout
 set number
+set path=.,**
 set report=0
 set secure
 set shiftwidth=2
@@ -42,20 +43,15 @@ set undodir=~/.vim/undo/
 set undofile
 set visualbell
 set wildignore=*.jpg,*.bmp,*.gif,*.png,*.jpeg
+set wildignorecase
 set wildmenu
-set wildmode=list:longest
+set wildmode=longest:full,full
 
 colorscheme base16-default-dark
 
-nnoremap gj j
-nnoremap gk k
-nnoremap j gj
-nnoremap k gk
 nnoremap <leader>w :wincmd w<cr>
 nnoremap <leader>o :only<cr>
 nnoremap <leader>c :close<cr>
-nnoremap <leader>" :split<cr>
-nnoremap <leader>% :vsplit<cr>
 
 nnoremap <backspace> :noh<cr>
 
@@ -64,14 +60,13 @@ nnoremap <right> :lnext<cr>
 nnoremap <up> :cprev<cr>
 nnoremap <down> :cnext<cr>
 
+nnoremap <leader>e :edit<space>
+nnoremap <leader>f :find<space>
+nnoremap <leader>b :buffer<space>
 nnoremap <leader>g :grep<space>
-nnoremap <leader>G :vimgrep<space>
-nnoremap <leader>i :Ilist<space>
-nnoremap <leader>d :Dlist<space>
-nnoremap <leader>j :tjump /
-nnoremap <leader>l :lgrep<space>
-
-nnoremap <leader>m :make<cr>
+nnoremap <leader>t :tjump<space>
+nnoremap <leader>m :make<space>
+nnoremap <leader>M :Make<space>
 
 inoremap ;f <C-x><C-f>
 inoremap ;i <C-x><C-i>
@@ -80,4 +75,3 @@ inoremap ;n <C-x><C-n>
 inoremap ;o <C-x><C-o>
 inoremap ;p <C-x><C-p>
 inoremap ;t <C-x><C-]>
-inoremap ;u <C-x><C-u>

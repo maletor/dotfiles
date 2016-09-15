@@ -7,7 +7,7 @@ set clipboard=unnamed
 set directory=~/.vim/temp/
 set expandtab
 set grepformat=%f:%l:%c:%m,%f:%l:%m
-set grepprg=pt\ --nogroup\ --nocolor\ --ignore-case\ --column
+set grepprg=pt\ --home-ptignore\ --global-gitignore\ --nogroup\ --nocolor\ --ignore-case\ --column
 set hidden
 set hlsearch
 set ignorecase

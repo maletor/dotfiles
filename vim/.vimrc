@@ -53,7 +53,6 @@ nnoremap <leader>o :only<cr>
 nnoremap <leader>c :close<cr>
 
 nnoremap <backspace> :noh<cr>
-
 nnoremap <left> :lprev<cr>
 nnoremap <right> :lnext<cr>
 nnoremap <up> :cprev<cr>
@@ -64,5 +63,4 @@ nnoremap <leader>f :find<space>
 nnoremap <leader>b :buffer<space>
 nnoremap <leader>g :grep<space>
 nnoremap <leader>t :tjump<space>
-nnoremap <leader>m :make<space>
-nnoremap <leader>M :Make<space>
+nnoremap <leader>m :Make<space>

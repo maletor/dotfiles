@@ -21,7 +21,6 @@ set nojoinspaces
 set nomore
 set nospell
 set notimeout
-set number
 set path=.,**
 set report=0
 set secure
@@ -67,11 +66,3 @@ nnoremap <leader>g :grep<space>
 nnoremap <leader>t :tjump<space>
 nnoremap <leader>m :make<space>
 nnoremap <leader>M :Make<space>
-
-inoremap ;f <C-x><C-f>
-inoremap ;i <C-x><C-i>
-inoremap ;l <C-x><C-l>
-inoremap ;n <C-x><C-n>
-inoremap ;o <C-x><C-o>
-inoremap ;p <C-x><C-p>
-inoremap ;t <C-x><C-]>

@@ -40,3 +40,6 @@
 [submodule "vim/.vim/pack/vi-improved/start/vim-unimpaired"]
 	path = vim/.vim/pack/vi-improved/start/vim-unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
+[submodule "vim/.vim/pack/vi-improved/start/vim-dispatch"]
+	path = vim/.vim/pack/vi-improved/start/vim-dispatch
+	url = git://github.com/tpope/vim-dispatch.git

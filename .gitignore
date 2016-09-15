@@ -1,3 +1,6 @@
 /weechat/.weechat/logs
 /weechat/.weechat/script
 /weechat/.weechat/weechat.log
+/vim/.vim/backup/
+/vim/.vim/undo/
+/vim/.vim/temp/

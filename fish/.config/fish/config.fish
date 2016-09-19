@@ -27,4 +27,3 @@ alias rk='rake'
 alias s='rspec'
 
 set fish_greeting
-set -x PATH $HOME/.bin $PATH

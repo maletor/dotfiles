@@ -26,4 +26,9 @@ alias nombom='rm -rf {bower_components,dist,node_modules,tmp}'
 alias rk='rake'
 alias s='rspec'
 
-set fish_greeting
+set -gx CDPATH . $HOME/src
+set -gx EDITOR vim
+set -gx VISUAL vim
+set -gx PAGER "less"
+
+set -g fish_user_paths /Users/maletor/.gem/ruby/2.3.0/bin

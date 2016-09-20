@@ -31,4 +31,4 @@ set -gx EDITOR vim
 set -gx VISUAL vim
 set -gx PAGER "less"
 
-set -g fish_user_paths /Users/maletor/.gem/ruby/2.3.0/bin
+set -g fish_user_paths /Users/maletor/.gem/ruby/2.3.0/bin /Users/maletor/.local/bin

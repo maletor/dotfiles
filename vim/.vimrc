@@ -32,7 +32,7 @@ set smartcase
 set spell
 set splitbelow
 set splitright
-set statusline=%F%m%r%h%w%=[%L][%{&ff}]%y[%p%%][%04l,%04v]
+set statusline=%F%m%r%h%w%=%y[%v,%l][%L]
 set tabstop=2
 set textwidth=0
 set ttimeout

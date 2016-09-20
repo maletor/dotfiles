@@ -25,10 +25,12 @@ alias mkdir='mkdir -p'
 alias nombom='rm -rf {bower_components,dist,node_modules,tmp}'
 alias rk='bundle exec rake'
 alias s='bundle exec rspec'
+alias ta='tmux a'
+alias tn='tmux new'
 
-set -gx EDITOR vim
-set -gx VISUAL vim
-set -gx PAGER "less"
+set -x EDITOR vim
+set -x VISUAL vim
+set -x PAGER less
 
-set -g fish_user_paths /Users/maletor/.gem/ruby/2.3.0/bin /Users/maletor/.local/bin
-set -g fish_greeting
+set fish_user_paths /Users/maletor/.gem/ruby/2.3.0/bin /Users/maletor/.local/bin
+set fish_greeting

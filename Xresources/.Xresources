@@ -1,13 +1,12 @@
-Xcursor.theme: whiteglass
-Xcursor.size: 64
-URxvt.font: xft:Source Code Pro:size=64
-URxvt.boldFont: xft:Source Code Pro:bold:size=64
+URxvt.boldFont: xft:Source Code Pro:bold
+URxvt.font: xft:Source Code Pro:semibold
 URxvt.scrollBar: false
-Xft.autohint: 0
-Xft.lcdfilter: lcddefault
-Xft.hintstyle: hintslight
-Xft.hinting: 1
+Xcursor.theme: whiteglass
 Xft.antialias: 1
+Xft.autohint: 0
+Xft.hinting: 1
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
 Xft.rgba: rgb
 
 #define base00 #181818
@@ -53,4 +52,4 @@ rofi.color-window: base00, base07
 rofi.color-normal: base00, base07, base00, base07, base00
 rofi.color-urgent: base00, base08, base00, base08, base00
 rofi.color-active: base00, base0D, base00, base0D, base00
-rofi.font: Inconsolata 48
+rofi.font: Source Code Pro 48

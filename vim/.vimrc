@@ -44,20 +44,20 @@ set visualbell
 set wildignore=*.jpg,*.bmp,*.gif,*.png,*.jpeg
 set wildignorecase
 set wildmenu
-set wildmode=longest:full,full
+set wildmode=full
 
 colorscheme base16-default-dark
 
-nnoremap <leader>w :wincmd w<cr>
-nnoremap <leader>o :only<cr>
-nnoremap <leader>c :close<cr>
-
 nnoremap <backspace> :noh<cr>
+
 nnoremap <left> :lprev<cr>
 nnoremap <right> :lnext<cr>
 nnoremap <up> :cprev<cr>
 nnoremap <down> :cnext<cr>
 
+nnoremap <leader>w :wincmd w<cr>
+nnoremap <leader>o :only<cr>
+nnoremap <leader>c :close<cr>
 nnoremap <leader>e :edit<space>
 nnoremap <leader>f :find<space>
 nnoremap <leader>b :buffer<space>

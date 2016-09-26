@@ -13,9 +13,6 @@
 [submodule "vim/.vim/pack/vi-improved/start/vim-fugitive"]
 	path = vim/.vim/pack/vi-improved/start/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
-[submodule "vim/.vim/pack/vi-improved/start/vim-lion"]
-	path = vim/.vim/pack/vi-improved/start/vim-lion
-	url = git://github.com/tommcdo/vim-lion.git
 [submodule "vim/.vim/pack/vi-improved/start/vim-polyglot"]
 	path = vim/.vim/pack/vi-improved/start/vim-polyglot
 	url = git://github.com/sheerun/vim-polyglot.git
@@ -37,9 +34,6 @@
 [submodule "vim/.vim/pack/vi-improved/start/vim-unimpaired"]
 	path = vim/.vim/pack/vi-improved/start/vim-unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
-[submodule "vim/.vim/pack/vi-improved/start/vim-dispatch"]
-	path = vim/.vim/pack/vi-improved/start/vim-dispatch
-	url = git://github.com/tpope/vim-dispatch.git
 [submodule "vim/.vim/pack/vi-improved/start/vim-endwise"]
 	path = vim/.vim/pack/vi-improved/start/vim-endwise
 	url = git://github.com/tpope/vim-endwise.git

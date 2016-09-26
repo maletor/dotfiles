@@ -19,9 +19,6 @@
 [submodule "vim/.vim/pack/vi-improved/start/vim-polyglot"]
 	path = vim/.vim/pack/vi-improved/start/vim-polyglot
 	url = git://github.com/sheerun/vim-polyglot.git
-[submodule "vim/.vim/pack/vi-improved/start/vim-qf"]
-	path = vim/.vim/pack/vi-improved/start/vim-qf
-	url = git://github.com/romainl/vim-qf.git
 [submodule "vim/.vim/pack/vi-improved/start/vim-repeat"]
 	path = vim/.vim/pack/vi-improved/start/vim-repeat
 	url = git://github.com/tpope/vim-repeat.git

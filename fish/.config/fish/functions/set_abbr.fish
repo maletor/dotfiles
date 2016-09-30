@@ -18,12 +18,9 @@ function set_abbr
     abbr gp git push
     abbr gpf git push --force-with-lease
     abbr grc git rebase --continue
-    abbr grep grep --ignore-case --color
     abbr gri git rebase -i origin/master
     abbr gs git status -sb
     abbr ll ls -al
-    abbr ln ln -v
-    abbr mkdir mkdir -p
     abbr nombom rm -rf {bower_components,dist,node_modules,tmp}
     abbr rk bundle exec rake
     abbr s bundle exec rspec

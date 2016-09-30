@@ -9,6 +9,7 @@ function set_abbr
     abbr gc git commit -v
     abbr gca git commit -a -v
     abbr gco git checkout
+    abbr gmen git commit --amend -v
     abbr gd git diff
     abbr gdc git diff --cached
     abbr gds git diff --stat

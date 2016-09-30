@@ -1,3 +1,4 @@
+/fish/.config/fish/fishd.*
 /weechat/.weechat/logs
 /weechat/.weechat/script
 /weechat/.weechat/weechat.log

@@ -1,5 +1,5 @@
 URxvt.boldFont: xft:Source Code Pro:bold
-URxvt.font: xft:Source Code Pro:semibold
+URxvt.font: xft:Source Code Pro:semibold,xft:Symbola
 URxvt.scrollBar: false
 Xcursor.theme: whiteglass
 Xft.antialias: 1

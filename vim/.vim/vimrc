@@ -1,13 +1,11 @@
 let mapleader="\<space>"
 
-set backup
-set backupdir=~/.vim/backup/
 set breakindent
 set clipboard=unnamed
-set directory=~/.vim/temp/
+set directory=~/.local/share/vim/swap//
 set expandtab
 set grepformat=%f:%l:%c:%m,%f:%l:%m
-set grepprg=pt\ --home-ptignore\ --global-gitignore\ --nogroup\ --nocolor\ --ignore-case\ --column
+set grepprg=pt\ --home-ptignore\ --global-gitignore\ --nogroup\ --nocolor\ --smart-case\ --column
 set hidden
 set hlsearch
 set ignorecase
@@ -38,7 +36,7 @@ set textwidth=0
 set ttimeout
 set ttimeoutlen=10
 set ttymouse=sgr
-set undodir=~/.vim/undo/
+set undodir=~/.local/share/vim/undo
 set undofile
 set visualbell
 set wildignore=*.jpg,*.bmp,*.gif,*.png,*.jpeg

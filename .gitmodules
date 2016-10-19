@@ -40,3 +40,6 @@
 [submodule "vim/.vim/pack/vi-improved/start/editorconfig-vim"]
 	path = vim/.vim/pack/vi-improved/start/editorconfig-vim
 	url = git://github.com/editorconfig/editorconfig-vim.git
+[submodule "vim/.vim/pack/vi-improved/start/vim-vue"]
+	path = vim/.vim/pack/vi-improved/start/vim-vue
+	url = https://github.com/posva/vim-vue.git

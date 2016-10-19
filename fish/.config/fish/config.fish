@@ -36,5 +36,5 @@ abbr nombom rm -rf {bower_components,dist,node_modules,tmp}
 abbr rk bundle exec rake
 abbr s bundle exec rspec
 abbr ta tmux a
-abbr tn tmux new
+abbr tn "tmux new -As (basename $PWD)"
 

@@ -10,6 +10,7 @@ set fish_user_abbreviations
 
 abbr b bundle
 abbr be bundle exec
+abbr buao "brew update; and brew outdated"
 abbr e vim
 abbr et ember test --server
 abbr g git
@@ -22,7 +23,7 @@ abbr gmen git commit --amend -v
 abbr gd git diff
 abbr gdc git diff --cached
 abbr gds git diff --stat
-abbr gnb git branch -b
+abbr gnb git checkout -b
 abbr gl git pull --prune
 abbr glog "git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 abbr gp git push
@@ -35,5 +36,5 @@ abbr nombom rm -rf {bower_components,dist,node_modules,tmp}
 abbr rk bundle exec rake
 abbr s bundle exec rspec
 abbr ta tmux a
-abbr tn tmux new
+abbr tn "tmux new -As (basename $PWD)"
 

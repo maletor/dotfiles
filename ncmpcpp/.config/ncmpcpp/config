@@ -235,7 +235,7 @@ lyrics_directory = ~/.local/share/ncmpcpp/lyrics
 ## and "noop".
 ##
 #
-browser_sort_mode = mtime
+#browser_sort_mode = name
 #
 #browser_sort_format = {%a - }{%t}|{%f} {(%l)}
 #
@@ -449,7 +449,7 @@ mouse_support = yes
 #
 #tag_editor_extended_numeration = no
 #
-media_library_sort_by_mtime = yes
+#media_library_sort_by_mtime = no
 #
 #enable_window_title = yes
 #

@@ -13,9 +13,6 @@
 [submodule "vim/.vim/pack/vi-improved/start/vim-fugitive"]
 	path = vim/.vim/pack/vi-improved/start/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
-[submodule "vim/.vim/pack/vi-improved/start/vim-polyglot"]
-	path = vim/.vim/pack/vi-improved/start/vim-polyglot
-	url = git://github.com/sheerun/vim-polyglot.git
 [submodule "vim/.vim/pack/vi-improved/start/vim-repeat"]
 	path = vim/.vim/pack/vi-improved/start/vim-repeat
 	url = git://github.com/tpope/vim-repeat.git

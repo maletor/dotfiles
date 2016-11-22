@@ -5,7 +5,7 @@ set clipboard=unnamed
 set directory=~/.local/share/vim/swap//
 set expandtab
 set grepformat=%f:%l:%c:%m,%f:%l:%m
-set grepprg=pt\ --home-ptignore\ --global-gitignore\ --nogroup\ --nocolor\ --smart-case\ --column
+set grepprg=rg\ --vimgrep\ --smart-case\ --column
 set hidden
 set hlsearch
 set ignorecase

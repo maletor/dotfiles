@@ -1,8 +1,8 @@
-vo=opengl-hq:scale=ewa_lanczossharp:interpolation:icc-profile=/home/maletor/.color/icc/2016-07-16.icc
+profile=opengl-hq
+cscale=ewa_lanczos
+scale=ewa_lanczossharp
 video-sync=display-resample
-audio-device=alsa/hdmi:CARD=NVidia,DEV=1
+interpolation
 audio-channels=auto
-
+icc-profile=/home/maletor/.color/icc/2016-07-16.icc
 fullscreen
-cache-default=8000000
-cache-backbuffer=2000000

@@ -62,4 +62,3 @@ nnoremap <leader>f :find<space>
 nnoremap <leader>b :buffer<space>
 nnoremap <leader>g :grep<space>
 nnoremap <leader>t :tjump<space>
-nnoremap <leader>m :Make<space>

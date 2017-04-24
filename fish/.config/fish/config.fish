@@ -4,7 +4,7 @@ set -x LESS '-F -i -J -M -R -W -x4 -X -z-4'
 
 set fish_color_command cyan
 set fish_color_param magenta
-set fish_user_paths $HOME/.gem/ruby/2.2.0/bin $HOME/.local/bin
+set fish_user_paths $HOME/.local/bin
 set fish_greeting
 set fish_user_abbreviations
 
@@ -38,3 +38,4 @@ abbr s bundle exec rspec
 abbr ta tmux a
 abbr tn tmux new -As
 
+status --is-interactive; and source (rbenv init -|psub)

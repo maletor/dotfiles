@@ -23,7 +23,7 @@
   email = bernee@alum.rpi.edu
   signingkey = Ellis Berner <bernee@alum.rpi.edu>
 [commit]
-  gpgsign = false
+  gpgsign = true
 [apply]
   whitespace = nowarn
 [help]
@@ -31,4 +31,4 @@
 [diff]
   tool = vimdiff
 [gpg]
-  program = gpg2
+  program = gpg

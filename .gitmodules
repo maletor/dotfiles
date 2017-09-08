@@ -40,3 +40,9 @@
 [submodule "vim/.vim/pack/vi-improved/start/vim-polyglot"]
 	path = vim/.vim/pack/vi-improved/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "vim/.vim/pack/vi-improved/start/vim-wakatime"]
+	path = vim/.vim/pack/vi-improved/start/vim-wakatime
+	url = https://github.com/wakatime/vim-wakatime.git
+[submodule "vim/.vim/pack/vi-improved/start/vim-rhubarb"]
+	path = vim/.vim/pack/vi-improved/start/vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb

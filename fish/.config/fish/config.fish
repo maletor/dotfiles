@@ -1,4 +1,4 @@
-set -x EDITOR vim
+set -x EDITOR nvim
 set -x PAGER less
 set -x LESS '-F -i -J -M -R -W -x4 -X -z-4'
 
@@ -11,7 +11,7 @@ set fish_user_abbreviations
 abbr b bundle
 abbr be bundle exec
 abbr buao "brew update; and brew outdated"
-abbr e vim
+abbr e $EDITOR
 abbr et ember test --server
 abbr g git
 abbr ga git aa

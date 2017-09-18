@@ -1,2 +1,3 @@
 /fish/.config/fish/fishd.*
 /vim/.vim/.netrwhist
+/nvim/.config/nvim/.netrwhist

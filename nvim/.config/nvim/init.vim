@@ -16,7 +16,7 @@ nnoremap <down> :cnext<cr>
 nnoremap <leader>w :wincmd w<cr>
 nnoremap <leader>W :wincmd W<cr>
 nnoremap <leader>o :only<cr>
-nnoremap <leader>c :close<cr>
+nnoremap <leader>c :copen<cr>
 nnoremap <leader>e :edit<space>
 nnoremap <leader>f :find<space>
 nnoremap <leader>b :buffer<space>

@@ -1,3 +1,3 @@
-set expandtab
-set shiftwidth=2
-compiler ruby
+setlocal expandtab
+setlocal shiftwidth=2
+setlocal makeprg=rubocop\ --format\ emacs

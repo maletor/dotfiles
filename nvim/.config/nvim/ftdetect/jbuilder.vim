@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.jbuilder setfiletype ruby
+autocmd BufNewFile,BufRead *.jbuilder set filetype=ruby

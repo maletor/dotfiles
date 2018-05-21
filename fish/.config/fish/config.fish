@@ -4,9 +4,9 @@ set -x LESS '-F -i -J -M -R -W -x4 -X -z-4'
 
 set fish_color_command cyan
 set fish_color_param magenta
-set fish_user_paths $HOME/.local/bin
 set fish_greeting
 set fish_user_abbreviations
+set fish_user_paths ~/.local/bin
 
 abbr b bundle
 abbr be bundle exec
@@ -38,4 +38,6 @@ abbr s bundle exec rspec
 abbr ta tmux a
 abbr tn tmux new -As
 
-status --is-interactive; and source (rbenv init -|psub)
+abbr ssh-prod-mysql-master ssh -NL 3306:prod-mysql-master.dox.box:3306 eberner@aws-bastion
+abbr ssh-prod-console-1 ssh -NL 2222:prod-doximity-console-1.dox.box:22 eberner@aws-bastion
+abbr mysql-prod mysql -h 0.0.0.0 -P 3306 -p -u eberner -A

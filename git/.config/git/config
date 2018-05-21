@@ -22,13 +22,13 @@
   name = Ellis Berner
   email = bernee@alum.rpi.edu
   signingkey = Ellis Berner <bernee@alum.rpi.edu>
-[commit]
-  gpgsign = true
 [apply]
   whitespace = nowarn
 [help]
   autocorrect = 1
 [diff]
   tool = vimdiff
-[gpg]
-  program = gpg
+[mergetool "vimdiff"]
+  path = nvim
+[difftool]
+  prompt = false

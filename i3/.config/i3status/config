@@ -13,18 +13,31 @@ general {
         interval = 5
 }
 
-order += "ipv6"
-order += "disk /home/maletor"
+order += "volume master"
+order += "disk /"
 order += "load"
+order += "cpu_temperature 0"
 order += "tztime date"
 order += "tztime time"
 
-disk "/home/maletor" {
+volume master {
+    format = "%volume"
+    format_muted = ""
+    device = "default"
+    mixer = "Master"
+    mixer_idx = 0
+}
+
+disk "/" {
         format = "%avail"
 }
 
 load {
-        format = "%1min %5min %15min"
+        format = "%1min"
+}
+
+cpu_temperature 0 {
+	format = "%degrees°"
 }
 
 tztime date {
@@ -32,5 +45,5 @@ tztime date {
 }
 
 tztime time {
-        format = "%H:%M"
+        format = "%H:%M "
 }

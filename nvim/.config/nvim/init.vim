@@ -1,13 +1,17 @@
-colorscheme base16-default-dark
-
 set grepprg=git\ grep\ -n\ $*
+set termguicolors
 set visualbell
+let g:ruby_recommended_style = 1
 
-nnoremap <backspace> :noh<cr>
+if filereadable(expand("~/.vimrc_background"))
+  source ~/.vimrc_background
+endif
 
-nnoremap <left> :lprev<cr>
+nnoremap <backspace> :nohlsearch<cr>
+
+nnoremap <left> :lprevious<cr>
 nnoremap <right> :lnext<cr>
-nnoremap <up> :cprev<cr>
+nnoremap <up> :cprevious<cr>
 nnoremap <down> :cnext<cr>
 
 nnoremap <space>w :wincmd w<cr>

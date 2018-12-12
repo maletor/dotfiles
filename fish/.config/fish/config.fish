@@ -8,6 +8,11 @@ set fish_greeting
 set fish_user_abbreviations
 set fish_user_paths ~/.local/bin
 
+if status --is-interactive
+	set BASE16_SHELL "$HOME/.config/base16-shell/"
+	source "$BASE16_SHELL/profile_helper.fish"
+end
+
 abbr b bundle
 abbr be bundle exec
 abbr buao "brew update; and brew outdated"
